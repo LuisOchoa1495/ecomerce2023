@@ -19,6 +19,11 @@ body{
 .carousel-inner{
     max-height: 32rem;  
 }
+.logo-inmobiliaria{
+    height: 35px;
+    width: 35px;
+
+}
 
 /*media queries*/
 @media(max-width:768px){
@@ -64,7 +69,7 @@ body{
 
 #local{
     background: #f3f3f3;
-    padding-bottom: 300px;
+    padding-bottom: 290px;
     display: flex;
     justify-content: center;
 }
