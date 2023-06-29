@@ -20,9 +20,7 @@ body{
     max-height: 32rem;  
 }
 .logo-inmobiliaria{
-    height: 35px;
     width: 35px;
-
 }
 
 /*media queries*/
@@ -69,7 +67,7 @@ body{
 
 #local{
     background: #f3f3f3;
-    padding-bottom: 290px;
+    padding-bottom: 300px;
     display: flex;
     justify-content: center;
 }
