@@ -62,13 +62,16 @@ body{
 /*ALQUILER*/
 .departamento{
     background: url(../img/alquiler1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100%;
     height:500px;
 }
 
 #local{
     background: #f3f3f3;
-    padding-bottom: 290px;
+    padding-bottom: 150px;
     display: flex;
     justify-content: center;
 }
@@ -107,6 +110,42 @@ body{
     min-height:500px;
     position:relative;
 }
+
+/*=========================INMUEBLE================================*/
+
+@media (min-width: 1260px) {
+    .inmuebles-container {
+        width: min(95%,1160px) !important;
+    }
+    #inmuebles .inmuebles-container {
+        justify-content: space-between !important;
+    }
+}
+
+@media (min-width: 1500px) {
+    .inmuebles-container {
+        width: 80% !important;
+    }
+    #inmuebles .inmuebles-container {
+        justify-content: space-between !important;
+    }
+}
+
+@media (min-width: 430px) {
+    .boton-container {
+        justify-content: flex-end !important;
+    }
+    .boton {
+        width: auto !important;
+    }
+}
+
+/*=========================VISTA INMUEBLE================================*/
+
+.vista-inmueble {
+    width: min(50rem, 90%);
+}
+
 
 /*=========================CONTACTOS FORMULARIO================================*/
 
