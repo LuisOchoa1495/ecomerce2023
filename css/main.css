@@ -61,21 +61,26 @@ body{
 /*ALQUILER*/
 .departamento{
     background: url(../img/alquiler1.jpg);
-    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 70%;
     height:500px;
+    margin-left: 50px;
 }
 
 #local{
     background: #f3f3f3;
-    padding-bottom: 300px;
+    padding-bottom: 50px;
+    padding-top: 50px;
     display: flex;
     justify-content: center;
 }
 
 .wrapper{
     width: 50%;
-    margin-left: 100px;
-    padding-top: 150px;
+    margin-left: 50px;
+    padding-top: 80px;
 }
 
 #numeros-local div{
@@ -107,11 +112,47 @@ body{
     position:relative;
 }
 
+/*=========================INMUEBLE================================*/
+
+@media (min-width: 1260px) {
+    .inmuebles-container {
+        width: min(95%,1160px) !important;
+    }
+    #inmuebles .inmuebles-container {
+        justify-content: space-between !important;
+    }
+}
+
+@media (min-width: 1500px) {
+    .inmuebles-container {
+        width: 80% !important;
+    }
+    #inmuebles .inmuebles-container {
+        justify-content: space-between !important;
+    }
+}
+
+@media (min-width: 430px) {
+    .boton-container {
+        justify-content: flex-end !important;
+    }
+    .boton {
+        width: auto !important;
+    }
+}
+
+/*=========================VISTA INMUEBLE================================*/
+
+.vista-inmueble {
+    width: min(50rem, 90%);
+}
+
+
 /*=========================CONTACTOS FORMULARIO================================*/
 
 #contenedor-formulario{
     position:absolute;
-    top:30%;
+    top:20%;
     left:50%;
     transform: translate(-50%, -50%);
     background: #fbfafa;
